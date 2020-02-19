@@ -17,9 +17,10 @@ if (nomePresente == true) {
 // Dadi
 // generare due numeri random
 
-var primoNumero = Math.floor(Math.random() * 6)
-console.log(primoNumero);
-var secondoNumero = Math.floor(Math.random() * 6)
+// var primoNumero = Math.ceil(Math.random() * 6)
+// console.log(primoNumero);
+var primoNumero = parseInt(prompt('Inserisci un numero, player 1'))
+var secondoNumero = Math.ceil(Math.random() * 6)
 console.log(secondoNumero);
 if (primoNumero > secondoNumero) {
     alert ('Player 1 Wins!')
